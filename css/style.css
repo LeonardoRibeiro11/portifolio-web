@@ -259,34 +259,6 @@ p{
     overflow: hidden;
 }
 
-.progresso{
-    height: 100%;
-}
-
-.html{
-    width: 80%;
-    background-color: #e34f26;
-}
-
-.css{
-    width: 75%;
-    background-color: #264de4;
-}
-
-.js{
-    width: 65%;
-    background-color: #f7df1e;
-}
-
-.git{
-    width: 70%;
-    background-color: #f1502f;
-}
-
-.linux{
-    width: 60%;
-    background-color: #38bdf8;
-}
 
 .subtitulo-projetos,
 .subtitulo-contato,
@@ -296,8 +268,6 @@ p{
     margin-bottom: 30px;
 }
 
-
-/* PROJETOS */
 
 .grid-projetos{
     display: grid;
@@ -380,8 +350,6 @@ p{
 }
 
 
-/* FORMULÁRIO */
-
 .formulario{
     background-color: var(--card);
 
@@ -431,21 +399,6 @@ p{
 }
 
 
-/* RESUMO */
-
-.resumo{
-    background-color: var(--card);
-
-    border: 1px solid var(--borda);
-
-    padding: 30px;
-
-    border-radius: 10px;
-}
-
-
-/* FOOTER */
-
 footer{
     width: 90%;
 
@@ -485,8 +438,6 @@ footer{
 }
 
 
-/* BOTÃO TOPO */
-
 #btn-topo{
     position: fixed;
 
@@ -517,8 +468,6 @@ footer{
     transform: scale(1.1);
 }
 
-
-/* RESPONSIVIDADE */
 
 @media(max-width: 850px){
 
