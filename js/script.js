@@ -1,8 +1,6 @@
 const btnTema = document.getElementById("btn-tema");
 const btnTopo = document.getElementById("btn-topo");
 
-
-// Tema salvo
 const temaSalvo = localStorage.getItem("tema");
 
 if (temaSalvo === "claro") {
@@ -17,8 +15,6 @@ if (temaSalvo === "claro") {
 
 }
 
-
-// Troca de tema
 function trocarTema() {
 
     document.body.classList.toggle("light-theme");
@@ -39,8 +35,6 @@ function trocarTema() {
 
 }
 
-
-// Voltar ao topo
 function voltarAoTopo() {
 
     window.scrollTo({
@@ -50,8 +44,6 @@ function voltarAoTopo() {
 
 }
 
-
-// Mostrar botão ao rolar a página
 window.addEventListener("scroll", function () {
 
     if (window.scrollY > 300) {
@@ -66,8 +58,6 @@ window.addEventListener("scroll", function () {
 
 });
 
-
-// Eventos
 btnTema.addEventListener("click", trocarTema);
 
 btnTopo.addEventListener("click", voltarAoTopo);
